@@ -31,11 +31,11 @@ master
 develop - development branch for saving progress
 dev/zhongy1 - dev branches for prepping for merge into develop
 dev/rmaddi5
-dev/rmedin25
+dev/rudym17
 dev/bpoole4
 exp/zhongy1 - experimental branches for creating schematics
 exp/rmaddi5
-exp/rmedin25
+exp/rudym17
 exp/bpoole4
 ```
 
@@ -45,7 +45,7 @@ Within main, each person has a schematic prepared for them. This is your sandbox
 main - circuits that are built from components
   |- zhongy1_exp
   |- rmaddi5_exp
-  |- rmedin25_exp
+  |- rudym17_exp
   \- bpoole4_exp
 experimental - work in progress components and basic blocks
   |- components
