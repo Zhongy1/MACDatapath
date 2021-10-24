@@ -2,17 +2,18 @@
 
 ## Setup remote access
 Github has removed password authentication in the command line. You will have to set up an ssh key. Follow these steps:
-1. Run `ssh-keygen`
-2. Navigate to `~/.ssh`
-3. Run `cat id_rsa.pub` and copy the output
-4. Go to https://github.com/settings/keys
-5. Click `New SSH Key`
-6. Title it `jumpece`
-7. Paste the public key in the Key field
-8. Click `Add SSH Key`
+1. Go to jumpece and open a terminal
+2. Run `ssh-keygen`. Then press enter through everything
+3. Run `cd` then `cd .ssh`
+4. Run `cat id_rsa.pub` and copy the output
+5. Go to https://github.com/settings/keys
+6. Click `New SSH Key`
+7. Title it `jumpece`
+8. Paste the public key in the Key field
+9. Click `Add SSH Key`
 
 ## Clone repo
-Run `git clone git@github.com:Zhongy1/MACDatapath.git` inside the directory that you want to store the project. The home directory or a directory called 467 would be a valid choice. Avoid moving the project around after cloning to prevent confusing Cadence.
+Run `git clone git@github.com:Zhongy1/MACDatapath.git` (make sure this is in jumpece) inside the directory that you want to store the project. The home directory or a directory called 467 would be a valid choice. After running the command, it may prompt you, so just type "yes" and hit enter. Avoid moving the project around after cloning to prevent confusing Cadence.
 
 ## Library setup
 After cloning the repo, you need to tell Cadence where to look for it. Follow these steps:
@@ -21,11 +22,25 @@ After cloning the repo, you need to tell Cadence where to look for it. Follow th
 3. In the opened window, go to `View > Include Files`
 4. The view should change and a + button appears. Click on that
 5. A window appears. Naviagete to MACDatapath, select `cds.lib`, and click open
-6. Go to `File > Save`
-7. Finally. go to `File > Exit`
+6. Notice 5 new libraries have appeared
+7. Go to `File > Save`
+8. Finally. go to `File > Exit`
+
+The following libraries should now be available:
+```
+mac_main
+mac_components
+mac_basic
+mac_exp_basic
+mac_exp_components
+```
+
 
 ## Branches
-Everyone will work in their respective exp branches. This will be the way work gets officially saved: `master <- develop <--> dev/* <--> exp/* `
+Everyone will work in their respective exp branches. This will be the way work gets officially saved: 
+```
+master <- develop <--> dev/* <--> exp/*
+```
 ```
 master
 develop - development branch for saving progress
