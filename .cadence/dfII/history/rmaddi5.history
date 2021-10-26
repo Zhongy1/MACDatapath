@@ -1,0 +1,1 @@
+("NAND3x1:/\tNAND3x1 mac_basic schematic" (("open" (nil hierarchy "/{mac_basic NAND3x1 schematic }:a"))) (((-2.18125 -1.975) (1.71875 1.05625)) "a" "Schematics" 4))("NAND2x1:/\tNAND2x1 mac_basic schematic" (("open" (nil hierarchy "/{mac_basic NAND2x1 schematic }:a"))) (((-2.35625 -1.91875) (1.39375 1.0)) "a" "Schematics" 2))
