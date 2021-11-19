@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      bpoole4
+HostName                       jump.ece.uic.edu
+ProcessIdentifier              14638
+ProcessCreationTime_UTC        1637345628
+ProcessCreationTime_Readable   Fri Nov 19 12:13:48 2021 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home1/AD/bpoole4/Desktop/467 project/MACDatapath/experimental/components/DECODER2_4/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri Nov 19 12:16:03 2021 CST
